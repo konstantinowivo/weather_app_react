@@ -19,7 +19,10 @@ export default function App() {
       .then(result => {
         setData(result)
         console.log(result);
-      });
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });;
     }
     fetchData();
   }, [lat,long])

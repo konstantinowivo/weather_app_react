@@ -3,11 +3,6 @@ import './styles.css';
 import moment from 'moment';
 import { Button } from 'semantic-ui-react';
 
-/* funcion actualizadora automática
-setInterval(() => {
-    window.location.reload();
-}, 2000);
-*/
 
 const refresh = () => {
     window.location.reload();
